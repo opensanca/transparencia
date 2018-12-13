@@ -1,0 +1,25 @@
+{
+    "months": [
+        {
+            "description": "Novembro/2018",
+            "previousBalance": 110.00,
+            "previousBalanceDelta": 0,
+            "income": 36.00,
+            "incomeDelta": 0,
+            "expenses": -4.32,
+            "expensesDelta": 0,
+            "currentBalance": 141.68,
+            "currentBalanceDelta": 31.68,
+            "transactions": [
+                {
+                    "description": "Doações",
+                    "amount": 36.00
+                },
+                {
+                    "description": "Taxas Padrim",
+                    "amount": -4.32
+                }
+            ]
+        }
+    ]
+}

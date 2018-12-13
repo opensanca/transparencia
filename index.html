@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="loading">
+  <head>
+    <title>Transparência Financeira - Opensanca</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <img id="loader" src="img/loader.svg">
+    <div id="app" class="container-fluid">
+      <h1>
+        <img src="img/logo.png">
+        Transparência Financeira
+      </h1>
+      <p>
+        Nesta página você encontra o detalhamento do fluxo de caixa do Opensanca.
+        O objetivo é garantir a transparência do destino que é dado para as contribuições
+        dos nossos membros e empresas patrocinadoras.
+      </p>
+      <div v-for="month in months" class="row month" @click="month.expanded = !month.expanded">
+        <div class="col-12 month-description">
+          {{month.description}}
+        </div>
+        <div class="col-12 col-sm-6">
+          <span>Saldo inicial: {{month.previousBalance | currency}}</span>
+          <delta-indicator v-bind:amount="month.previousBalanceDelta"></delta-indicator>
+        </div>
+        <div class="col-12 col-sm-6">
+          <span>Saldo final: {{month.currentBalance | currency}}</span>
+          <delta-indicator v-bind:amount="month.currentBalanceDelta"></delta-indicator>
+        </div>
+        <div class="col-12 col-sm-6">
+          <span>Receitas: {{month.income | currency}}</span>
+          <delta-indicator v-bind:amount="month.incomeDelta"></delta-indicator>
+        </div>
+        <div class="col-12 col-sm-6">
+          <span>
+            Despesas:
+            <span class="negative-amount">{{month.expenses | currency}}</span>
+          </span>
+          <delta-indicator v-bind:amount="month.expensesDelta"></delta-indicator>
+        </div>
+        <div class="details table-responsive" v-if="month.expanded">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Descrição</th>
+                <th class="amount-column">Valor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="transaction of month.transactions">
+                <td>{{transaction.description}}</td>
+                <td v-bind:class="{
+                  'negative-amount': transaction.amount < 0
+                }">{{transaction.amount | currency}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p>
+        Legenda:
+        <delta-indicator v-bind:amount="0"></delta-indicator> igual ao mês anterior
+        <delta-indicator v-bind:amount="1"></delta-indicator> maior que o mês anterior
+        <delta-indicator v-bind:amount="-1"></delta-indicator> menor que o mês anterior.
+      </p>
+      <p>Clique em um mês para ver o detalhamento das receitas e despesas.</p>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

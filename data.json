@@ -20,6 +20,39 @@
                     "amount": -4.32
                 }
             ]
+        },
+        {
+            "description": "Dezembro/2018",
+            "previousBalance": 141.68,
+            "previousBalanceDelta": 31.68,
+            "income": 651,
+            "incomeDelta": 615,
+            "expenses": -556.47,
+            "expensesDelta": 552.15,
+            "currentBalance": 236.21,
+            "currentBalanceDelta": 94.53,
+            "transactions": [
+                {
+                    "description": "Doações",
+                    "amount": 81
+                },
+                {
+                    "description": "DevConf Pocket (ingressos e patrocínio)",
+                    "amount": 570
+                },
+                {
+                    "description": "Taxas Padrim",
+                    "amount": -5.52
+                },
+                {
+                    "description": "DevConf Pocket (coffee)",
+                    "amount": -456
+                },
+                {
+                    "description": "Coding Dojo GlobalLabs (coffee)",
+                    "amount": -94.95
+                }
+            ]
         }
     ]
 }

@@ -31,8 +31,8 @@
           <delta-indicator v-bind:amount="month.previousBalanceDelta"></delta-indicator>
         </div>
         <div class="col-12 col-sm-6">
-          <span>Saldo final: {{month.currentBalance | currency}}</span>
-          <delta-indicator v-bind:amount="month.currentBalanceDelta"></delta-indicator>
+          <span>Saldo final: {{month.balance | currency}}</span>
+          <delta-indicator v-bind:amount="month.balanceDelta"></delta-indicator>
         </div>
         <div class="col-12 col-sm-6">
           <span>Receitas: {{month.income | currency}}</span>

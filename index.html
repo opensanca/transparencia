@@ -22,7 +22,7 @@
         O objetivo é garantir a transparência do destino que é dado para as contribuições
         dos nossos membros e empresas patrocinadoras.
       </p>
-      <div v-for="month in months" class="row month" @click="month.expanded = !month.expanded">
+      <div v-for="month in months.slice().reverse()" class="row month" @click="month.expanded = !month.expanded">
         <div class="col-12 month-description">
           {{month.description}}
         </div>

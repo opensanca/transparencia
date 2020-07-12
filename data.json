@@ -64,6 +64,274 @@
                     "amount": -30.76
                 }
             ]
+        },
+        {
+            "description": "Março/2019",
+            "transactions": [
+                {
+                    "description": "Despesas DevConf 2019 (parcial)",
+                    "amount": -1238.84
+                },
+                {
+                    "description": "Coffe Break outros eventos",
+                    "amount": -200
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -25.01
+                },
+                {
+                    "description": "Patrocínios DevConf 2019 (parcial)",
+                    "amount": 15281
+                },
+                {
+                    "description": "Doações",
+                    "amount": 229
+                }
+            ]
+        },
+        {
+            "description": "Abril/2019",
+            "transactions": [
+                {
+                    "description": "Despesas DevConf 2019 (parcial)",
+                    "amount": -14407.02
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -29.56
+                },
+                {
+                    "description": "Patrocínios DevConf 2019 (parcial)",
+                    "amount": 3300
+                },
+                {
+                    "description": "Ingressos DevConf 2019 (parcial)",
+                    "amount": 154
+                },
+                {
+                    "description": "Doações",
+                    "amount": 229
+                }
+            ]
+        },
+        {
+            "description": "Maio/2019",
+            "transactions": [
+                {
+                    "description": "Despesas DevConf 2019 (parcial)",
+                    "amount": -5056.67
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -29.56
+                },
+                {
+                    "description": "Ingressos DevConf 2019 (parcial)",
+                    "amount": 7925.50
+                },
+                {
+                    "description": "Doações",
+                    "amount": 229
+                }
+            ]
+        },
+        {
+            "description": "Junho/2019",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -29.56
+                },
+                {
+                    "description": "Doações",
+                    "amount": 229
+                }
+            ]
+        },
+        {
+            "description": "Julho/2019",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -28.96
+                },
+                {
+                    "description": "Coffee Break",
+                    "amount": -280
+                },
+                {
+                    "description": "Doações",
+                    "amount": 224
+                }
+            ]
+        },
+        {
+            "description": "Agosto/2019",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -28.96
+                },
+                {
+                    "description": "Doações",
+                    "amount": 224
+                }
+            ]
+        },
+        {
+            "description": "Setembro/2019",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -28.96
+                },
+                {
+                    "description": "Doações",
+                    "amount": 224
+                }
+            ]
+        },
+        {
+            "description": "Outubro/2019",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -28.84
+                },
+                {
+                    "description": "Doações",
+                    "amount": 208
+                }
+            ]
+        },
+        {
+            "description": "Novembro/2019",
+            "transactions": [
+                {
+                    "description": "Despesas Trilha DS",
+                    "amount": -4817.53
+                },
+                {
+                    "description": "Coffee Break outros eventos",
+                    "amount": -187.71
+                },
+                {
+                    "description": "Patrocínios Trilha DS",
+                    "amount": 2000
+                },
+                {
+                    "description": "Ingressos Trilha DS",
+                    "amount": 5100
+                },
+                {
+                    "description": "Taxa doações",
+                    "amount": -25.09
+                },
+                {
+                    "description": "Doações",
+                    "amount": 105
+                }
+            ]
+        },
+        {
+            "description": "Dezembro/2019",
+            "transactions": [
+                {
+                    "description": "Doações",
+                    "amount": 105
+                }
+            ]
+        },
+        {
+            "description": "Janeiro/2020",
+            "transactions": [
+                {
+                    "description": "Coffee Break",
+                    "amount": -119.07
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -29.10
+                },
+                {
+                    "description": "Doações",
+                    "amount": 120
+                }
+            ]
+        },
+        {
+            "description": "Fevereiro/2020",
+            "transactions": [
+                {
+                    "description": "Contabilidade",
+                    "amount": -192
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -1.80
+                },
+                {
+                    "description": "Doações",
+                    "amount": 120
+                }
+            ]
+        },
+        {
+            "description": "Março/2020",
+            "transactions": [
+                {
+                    "description": "Coffee Break",
+                    "amount": -155
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -29.10
+                },
+                {
+                    "description": "Doações",
+                    "amount": 120
+                }
+            ]
+        },
+        {
+            "description": "Abril/2020",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -1.80
+                },
+                {
+                    "description": "Doações",
+                    "amount": 85
+                }
+            ]
+        },
+        {
+            "description": "Maio/2020",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -25.88
+                },
+                {
+                    "description": "Doações",
+                    "amount": 115
+                }
+            ]
+        },
+        {
+            "description": "Junho/2020",
+            "transactions": [
+                {
+                    "description": "Taxas doações",
+                    "amount": -2.10
+                },
+                {
+                    "description": "Doações",
+                    "amount": 100
+                }
+            ]
         }
     ]
 }

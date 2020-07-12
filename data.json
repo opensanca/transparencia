@@ -1,15 +1,8 @@
 {
+    "initialBalance": 110,
     "months": [
         {
             "description": "Novembro/2018",
-            "previousBalance": 110.00,
-            "previousBalanceDelta": 0,
-            "income": 36.00,
-            "incomeDelta": 0,
-            "expenses": -4.32,
-            "expensesDelta": 0,
-            "currentBalance": 141.68,
-            "currentBalanceDelta": 31.68,
             "transactions": [
                 {
                     "description": "Doações",
@@ -23,14 +16,6 @@
         },
         {
             "description": "Dezembro/2018",
-            "previousBalance": 141.68,
-            "previousBalanceDelta": 31.68,
-            "income": 651,
-            "incomeDelta": 615,
-            "expenses": -556.47,
-            "expensesDelta": 552.15,
-            "currentBalance": 236.21,
-            "currentBalanceDelta": 94.53,
             "transactions": [
                 {
                     "description": "Doações",
@@ -51,6 +36,32 @@
                 {
                     "description": "Coding Dojo GlobalLabs (coffee)",
                     "amount": -94.95
+                }
+            ]
+        },
+        {
+            "description": "Janeiro/2019",
+            "transactions": [
+                {
+                    "description": "Doações",
+                    "amount": 469.70
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -3.72
+                }
+            ]
+        },
+        {
+            "description": "Fevereiro/2019",
+            "transactions": [
+                {
+                    "description": "Doações",
+                    "amount": 204
+                },
+                {
+                    "description": "Taxas doações",
+                    "amount": -30.76
                 }
             ]
         }

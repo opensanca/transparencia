@@ -345,6 +345,23 @@
                     "amount": 100
                 }
             ]
+        },
+        {
+            "description": "Agosto/2020",
+            "transactions": [
+                {
+                    "description": "Taxa repasses doações",
+                    "amount": -2.40
+                },
+                {
+                    "description": "Doações",
+                    "amount": 130
+                },
+                {
+                    "description": "Rendimentos CDB",
+                    "amount": 62.63
+                }
+            ]
         }
     ]
 }

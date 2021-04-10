@@ -447,6 +447,44 @@
                     "amount": 13.32
                 }
             ]
+        },
+        {
+            "description": "Fevereiro/2021",
+            "transactions": [
+                {
+                    "description": "Taxa repasses doações",
+                    "amount": -2.40
+                },
+                {
+                    "description": "Doações",
+                    "amount": 130
+                },
+                {
+                    "description": "Rendimentos CDB",
+                    "amount": 12.87
+                }
+            ]
+        },
+        {
+            "description": "Março/2021",
+            "transactions": [
+                {
+                    "description": "Taxa repasses doações",
+                    "amount": -24.50
+                },
+                {
+                    "description": "Anualidade StreamYard (plataforma de streaming)",
+                    "amount": -1217.97
+                },
+                {
+                    "description": "Doações",
+                    "amount": 130
+                },
+                {
+                    "description": "Rendimentos CDB",
+                    "amount": 20.75
+                }
+            ]
         }
     ]
 }
